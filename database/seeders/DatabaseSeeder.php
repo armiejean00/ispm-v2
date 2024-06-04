@@ -16,9 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::factory(10)->create();
-        Area::factory()->create([
-            'area_name' => 'A',
-        ]);
+       
         Desk::factory(33)->create();
         User::factory()->create([
             'username' => 'admin',
