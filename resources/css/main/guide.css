@@ -1,0 +1,13 @@
+/* *extends faqs.css */
+.faq-item {
+    cursor: default;
+    transition: none
+}
+
+.faq-item:hover {
+    background-color: initial;
+}
+
+.faq-item p {
+    display: block;
+}

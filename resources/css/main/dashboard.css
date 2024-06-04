@@ -1,0 +1,75 @@
+/* Calendar Styling */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forms-section {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 40vh;
+    background-color: rgb(205, 209, 214);
+    border: 1px solid black;
+}
+
+.forms-section input {
+    padding: 5px;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.forms-section button {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.forms-section button:hover {
+    background-color: #c20074;
+}
+
+#name {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 230px;
+}
+
+#deskNumber {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#date {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 240px;
+}
+
+#timeIn {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#timeOut {
+    margin-bottom: 10px;
+}
+
+.forms-section p,
+.forms-section label {
+    color: white;
+}
+
+.forms-section P {
+    font-size: large;
+}

@@ -1,0 +1,4 @@
+#content main .table-data .order table tr td .status.process {
+    background: var(--light-yellow);
+    color:var(--dark)
+}

@@ -1,0 +1,36 @@
+.floor-plan {
+
+    width: 700px;
+    height: 450px;
+    border: 1px solid #ccc;
+    margin-left: 90px;
+
+}
+
+.room {
+    cursor: pointer;
+}
+
+.living-room,
+.bedroom,
+.kitchen,
+.bathroom {
+    fill: url(#bg-pattern);
+    /* Set a pattern as the fill */
+}
+
+.room-label {
+    font-size: 25px;
+    position: absolute;
+}
+
+.box {
+    height: 350px;
+    width: 400px;
+    float: right;
+    background-color: rgb(225, 240, 235);
+    margin-left: 10px;
+    margin-top: 40px;
+    background-size: cover;
+    border: 1px solid black;
+}
